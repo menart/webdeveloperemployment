@@ -18,15 +18,14 @@ let maze = [
 
 let way = [];
 
-const MAZE_SIZE = [10, 10];
+let MAZE_SIZE = [10, 10];
+let start = [1, 0];
+let finish = [9, 0];
 
 const MOVE_LEFT = [-1, 0];
 const MOVE_RIGHT = [1, 0];
 const MOVE_TOP = [0, 1];
 const MOVE_BOTTOM = [0, -1];
-
-let start = [1, 0];
-let finish = [9, 0];
 
 const in_array = (arr, el) => {
     for (let i = 0; i < arr.length; i++) {
